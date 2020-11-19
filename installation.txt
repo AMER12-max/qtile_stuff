@@ -1,0 +1,12 @@
+# on debian/ubuntu
+cd ~/Downloads
+wget http://archive.ubuntu.com/ubuntu/pool/universe/q/qtile/python3-qtile_0.10.7-2ubuntu2_amd64.deb
+wget http://archive.ubuntu.com/ubuntu/pool/universe/q/qtile/qtile_0.10.7-2ubuntu2_all.deb
+
+sudo apt-get install ./qtile_0.10.7-2ubuntu2_all.deb ./python3-qtile_0.10.7-2ubuntu2_amd64.deb
+
+# on arch
+sudo pacman -S qtile
+
+# on fedora
+sudo dnf install qtile
